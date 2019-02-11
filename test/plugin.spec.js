@@ -21,9 +21,14 @@ describe('workbox-webpack-plugin', () => {
 			'utf8'
 		);
 
-		expect(precacheManifest).toMatchSnapshot();
+		expect(precacheManifest).toEqual(
+			expect.stringContaining('"url": "/index.html"')
+		);
+		expect(precacheManifest).toEqual(
+			expect.stringMatching(/"url": "\/bundle\.[^.]+\.js"/)
+		);
 		expect(serviceWorker).toEqual(
-			expect.stringMatching(/^importScripts\("\/precache-manifest\./)
+			expect.stringMatching(/^importScripts\("\/precache-manifest\.[^.]+\.js"\);/)
 		);
 	});
 });
