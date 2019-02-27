@@ -69,7 +69,7 @@
     "service-worker-loader": "^3.0.0",
     "size-limit": "^0.21.1",
     "webpack": "^4.28.3",
-    "workbox-sw": "^3.6.3"
+    "workbox-sw": "^4.0.0"
   },
   "files": [
     "lib"
