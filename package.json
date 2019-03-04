@@ -52,7 +52,7 @@
     "babel-preset-trigen": "^1.8.0",
     "browserslist-config-trigen": "^1.1.0",
     "clean-publish": "^1.1.0",
-    "clean-webpack-plugin": "^1.0.1",
+    "clean-webpack-plugin": "^2.0.0",
     "eslint": "^5.11.1",
     "eslint-config-trigen": "^3.2.1",
     "eslint-plugin-jest": "^22.1.2",
