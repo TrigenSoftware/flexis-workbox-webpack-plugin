@@ -1,7 +1,9 @@
 import path from 'path';
 import webpack from 'webpack';
 import MemoryFs from 'memory-fs';
-import CleanPlugin from 'clean-webpack-plugin';
+import {
+	CleanWebpackPlugin
+} from 'clean-webpack-plugin';
 import HtmlPlugin from 'html-webpack-plugin';
 import WorkboxPlugin from '../src/index';
 
@@ -33,7 +35,7 @@ export default function compile(fixtureEntry, options = {}, writeToFs = false) {
 			}]
 		},
 		plugins:      [
-			!IS_TEST && new CleanPlugin(path.join(pathToArtifacts, '**', '*')),
+			!IS_TEST && new CleanWebpackPlugin(path.join(pathToArtifacts, '**', '*')),
 			new HtmlPlugin({
 				template: 'index.html'
 			}),

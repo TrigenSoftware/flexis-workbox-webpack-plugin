@@ -1,0 +1,20 @@
+{
+  "generator-trigen-lib": {
+    "editPackage": true,
+    "pkg": {
+      "name": "@flexis/workbox-webpack-plugin",
+      "version": "1.0.0-beta",
+      "description": "Webpack plugin to generate and inject precache manifest to ServiceWorker.",
+      "repository": "https://github.com/TrigenSoftware/flexis-workbox-webpack-plugin",
+      "author": "dangreen"
+    },
+    "type": "node",
+    "lang": "babel",
+    "rollup": true,
+    "jest": true,
+    "coverage": false,
+    "publishAsRoot": false,
+    "cleanPublish": true,
+    "checkSize": true
+  }
+}
