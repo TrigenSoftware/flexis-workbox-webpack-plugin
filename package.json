@@ -42,8 +42,8 @@
     "core-js": "3",
     "service-worker-loader": "*",
     "webpack-sources": "^1.3.0",
-    "workbox-build": "^3.6.3",
-    "workbox-webpack-plugin": "^3.6.3"
+    "workbox-build": "^4.3.1",
+    "workbox-webpack-plugin": "^4.3.1"
   },
   "devDependencies": {
     "@trigen/scripts": "2",
@@ -53,15 +53,14 @@
     "@trigen/scripts-plugin-rollup": "2",
     "@trigen/scripts-plugin-size-limit": "2",
     "@trigen/scripts-preset-lib": "2",
-    "clean-webpack-plugin": "^1.0.1",
+    "clean-webpack-plugin": "^3.0.0",
     "eslint-plugin-jest": "^22.1.2",
     "html-webpack-plugin": "^3.2.0",
     "memory-fs": "^0.4.1",
-    "rollup-plugin-eslint": "^5.0.0",
-    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-eslint": "^6.0.0",
+    "rollup-plugin-json": "^4.0.0",
     "service-worker-loader": "^3.0.0",
-    "webpack": "^4.28.3",
-    "workbox-sw": "^3.6.3"
+    "webpack": "^4.28.3"
   },
   "files": [
     "lib"
