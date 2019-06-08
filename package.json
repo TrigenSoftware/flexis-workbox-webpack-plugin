@@ -1,6 +1,6 @@
 {
   "name": "@flexis/workbox-webpack-plugin",
-  "version": "1.0.0-beta",
+  "version": "1.1.0-beta",
   "description": "Webpack plugin to generate and inject precache manifest to ServiceWorker.",
   "author": "dangreen",
   "license": "MIT",
