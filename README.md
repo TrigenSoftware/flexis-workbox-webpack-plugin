@@ -2,17 +2,21 @@
 
 [![NPM version][npm]][npm-url]
 [![Node version][node]][node-url]
-[![Dependency status][deps]][deps-url]
+[![Peer dependencies status][peer-deps]][peer-deps-url]
+[![Dependencies status][deps]][deps-url]
 [![Build status][build]][build-url]
 [![Greenkeeper badge][greenkeeper]][greenkeeper-url]
 
-[npm]: https://img.shields.io/npm/v/%40flexis/workbox-webpack-plugin.svg
-[npm-url]: https://www.npmjs.com/package/@flexis/workbox-webpack-plugin
+[npm]: https://img.shields.io/npm/v/@flexis/workbox-webpack-plugin.svg
+[npm-url]: https://npmjs.com/package/@flexis/workbox-webpack-plugin
 
-[node]: https://img.shields.io/node/v/%40flexis/workbox-webpack-plugin.svg
+[node]: https://img.shields.io/node/v/@flexis/workbox-webpack-plugin.svg
 [node-url]: https://nodejs.org
 
-[deps]: https://img.shields.io/david/TrigenSoftware/flexis-workbox-webpack-plugin.svg
+[peer-deps]: https://david-dm.org/TrigenSoftware/flexis-workbox-webpack-plugin/peer-status.svg
+[peer-deps-url]: https://david-dm.org/TrigenSoftware/flexis-workbox-webpack-plugin?type=peer
+
+[deps]: https://david-dm.org/TrigenSoftware/flexis-workbox-webpack-plugin.svg
 [deps-url]: https://david-dm.org/TrigenSoftware/flexis-workbox-webpack-plugin
 
 [build]: http://img.shields.io/travis/com/TrigenSoftware/flexis-workbox-webpack-plugin.svg
