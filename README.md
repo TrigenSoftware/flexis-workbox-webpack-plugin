@@ -5,7 +5,7 @@
 [![Peer dependencies status][peer-deps]][peer-deps-url]
 [![Dependencies status][deps]][deps-url]
 [![Build status][build]][build-url]
-[![Greenkeeper badge][greenkeeper]][greenkeeper-url]
+[![Dependabot badge][dependabot]][dependabot-url]
 
 [npm]: https://img.shields.io/npm/v/@flexis/workbox-webpack-plugin.svg
 [npm-url]: https://npmjs.com/package/@flexis/workbox-webpack-plugin
@@ -19,11 +19,11 @@
 [deps]: https://david-dm.org/TrigenSoftware/flexis-workbox-webpack-plugin.svg
 [deps-url]: https://david-dm.org/TrigenSoftware/flexis-workbox-webpack-plugin
 
-[build]: http://img.shields.io/travis/com/TrigenSoftware/flexis-workbox-webpack-plugin.svg
+[build]: http://img.shields.io/travis/com/TrigenSoftware/flexis-workbox-webpack-plugin/master.svg
 [build-url]: https://travis-ci.com/TrigenSoftware/flexis-workbox-webpack-plugin
 
-[greenkeeper]: https://badges.greenkeeper.io/TrigenSoftware/flexis-workbox-webpack-plugin.svg
-[greenkeeper-url]: https://greenkeeper.io/
+[dependabot]: https://api.dependabot.com/badges/status?host=github&repo=TrigenSoftware/flexis-workbox-webpack-plugin
+[dependabot-url]: https://dependabot.com/
 
 Webpack plugin to generate and inject precache manifest to ServiceWorker. Created specially for [`service-worker-loader`](https://github.com/mohsen1/service-worker-loader).
 
