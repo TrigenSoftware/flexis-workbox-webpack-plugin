@@ -130,10 +130,14 @@ export default class WorkboxWebpackPlugin {
 
 		swEntriesAssets.forEach((entry) => {
 
-			assets[entry] = new ConcatSource(
-				new RawSource(importScriptsString),
-				assets[entry]
-			);
+			const asset = assets[entry];
+
+			if (asset) {
+				assets[entry] = new ConcatSource(
+					new RawSource(importScriptsString),
+					asset
+				);
+			}
 		});
 	}
 
