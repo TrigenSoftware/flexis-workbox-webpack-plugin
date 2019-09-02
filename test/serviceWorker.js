@@ -1,7 +1,9 @@
 /* eslint-env serviceworker */
-import precaching from 'workbox-precaching';
+import {
+	precacheAndRoute
+} from 'workbox-precaching';
 
-precaching.precacheAndRoute(self.__precacheManifest);
+precacheAndRoute(self.__precacheManifest);
 
 setInterval(() => {
 	postMessageToAll({

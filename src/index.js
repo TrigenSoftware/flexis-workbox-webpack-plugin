@@ -23,7 +23,7 @@ import {
 	onHook
 } from './utils';
 
-const SERVICE_WORKER_LOADER_COMPILER_NAME = identifier || 'service-worker';
+const ServiceWorkerCompiler = identifier || 'service-worker';
 
 export default class WorkboxWebpackPlugin {
 
@@ -145,7 +145,7 @@ export default class WorkboxWebpackPlugin {
 
 			onHook(compilation, 'childCompiler', (compiler, compilerName) => {
 
-				if (compilerName !== SERVICE_WORKER_LOADER_COMPILER_NAME) {
+				if (compilerName !== ServiceWorkerCompiler) {
 					return;
 				}
 
