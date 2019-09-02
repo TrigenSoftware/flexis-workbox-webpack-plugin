@@ -3,7 +3,9 @@ import {
 	ConcatSource,
 	RawSource
 } from 'webpack-sources';
-import { getManifest } from 'workbox-build';
+import {
+	getManifest
+} from 'workbox-build';
 import getDefaultConfig from 'workbox-webpack-plugin/build/lib/get-default-config';
 import warnAboutConfig from 'workbox-webpack-plugin/build/lib/warn-about-config';
 import getManifestEntriesFromCompilation from 'workbox-webpack-plugin/build/lib/get-manifest-entries-from-compilation';
@@ -14,8 +16,12 @@ import convertStringToAsset from 'workbox-webpack-plugin/build/lib/convert-strin
 import getAssetHash from 'workbox-webpack-plugin/build/lib/get-asset-hash';
 import formatManifestFilename from 'workbox-webpack-plugin/build/lib/format-manifest-filename';
 import relativeToOutputPath from 'workbox-webpack-plugin/build/lib/relative-to-output-path';
-import { identifier } from 'service-worker-loader';
-import { onHook } from './utils';
+import {
+	identifier
+} from 'service-worker-loader';
+import {
+	onHook
+} from './utils';
 
 const SERVICE_WORKER_LOADER_COMPILER_NAME = identifier || 'service-worker';
 
