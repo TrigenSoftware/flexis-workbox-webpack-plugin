@@ -8102,13 +8102,13 @@ schema-utils@^1.0.0:
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
 
-schema-utils@^2.0.0, schema-utils@^2.0.1:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.1.0.tgz#940363b6b1ec407800a22951bdcc23363c039393"
-  integrity sha512-g6SViEZAfGNrToD82ZPUjq52KUPDYc+fN5+g6Euo5mLokl/9Yx14z0Cu4RR1m55HtBXejO0sBt+qw79axN+Fiw==
+schema-utils@^2.0.0, schema-utils@^2.0.1, schema-utils@^2.1.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.2.0.tgz#48a065ce219e0cacf4631473159037b2c1ae82da"
+  integrity sha512-5EwsCNhfFTZvUreQhx/4vVQpJ/lnCAkgoIHLhSpp4ZirE+4hzFvdJi0FMub6hxbFVBJYSpeVVmon+2e7uEGRrA==
   dependencies:
-    ajv "^6.1.0"
-    ajv-keywords "^3.1.0"
+    ajv "^6.10.2"
+    ajv-keywords "^3.4.1"
 
 semver-compare@^1.0.0:
   version "1.0.0"
@@ -8165,14 +8165,14 @@ serve-static@1.14.1:
     send "0.17.1"
 
 service-worker-loader@3:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/service-worker-loader/-/service-worker-loader-3.2.0.tgz#5574c54b9b3bf3c3cb91619fb5377f4965e8cb9a"
-  integrity sha512-DZIeDjTaT9fBXDYKgGbFKcB278Z053h93UlXZQpUU7sSXf/0juokSzJC0airPKWXASf7nuiu8LakRrMMGn2Txw==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/service-worker-loader/-/service-worker-loader-3.3.0.tgz#bf0ac34318630a74cc4a8a357893fd6b5c7e3e39"
+  integrity sha512-hRyGd/GEOIbRIxLlL6ECO22ZHUHvhleMe/XAltV5MIhR9LCX0vuwukjgBWqBxNXdHb3Oa6mqDDjiH9YL9v9SNQ==
   dependencies:
     "@babel/runtime" "^7.5.5"
     core-js "3"
     loader-utils "^1.2.3"
-    schema-utils "^1.0.0"
+    schema-utils "^2.1.0"
 
 set-blocking@^2.0.0, set-blocking@~2.0.0:
   version "2.0.0"
