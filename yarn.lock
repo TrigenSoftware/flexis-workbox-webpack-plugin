@@ -8238,10 +8238,10 @@ serve-static@1.14.1:
     parseurl "~1.3.3"
     send "0.17.1"
 
-service-worker-loader@3:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/service-worker-loader/-/service-worker-loader-3.3.0.tgz#bf0ac34318630a74cc4a8a357893fd6b5c7e3e39"
-  integrity sha512-hRyGd/GEOIbRIxLlL6ECO22ZHUHvhleMe/XAltV5MIhR9LCX0vuwukjgBWqBxNXdHb3Oa6mqDDjiH9YL9v9SNQ==
+service-worker-loader@4:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/service-worker-loader/-/service-worker-loader-4.0.1.tgz#8be6c0c98c5eb2dc4d76ce090e380ccd5eed0617"
+  integrity sha512-A1OS6K/hAIUgs36OirTgzTWt7gojlXdSL29cXi3e+KKkE5u30+MaprgR7LwBpXQpFmA0b4aV7AxucIjGxnmSsQ==
   dependencies:
     "@babel/runtime" "^7.5.5"
     core-js "3"
