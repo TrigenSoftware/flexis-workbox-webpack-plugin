@@ -55,7 +55,7 @@
     "@trigen/scripts-plugin-size-limit": "^3.2.0",
     "@trigen/scripts-preset-lib": "^3.2.0",
     "clean-webpack-plugin": "^3.0.0",
-    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-jest": "^24.0.2",
     "html-webpack-plugin": "^3.2.0",
     "memory-fs": "^0.5.0",
     "rollup-plugin-eslint": "^6.0.0",
